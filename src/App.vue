@@ -1,9 +1,9 @@
 <script>
-import ApplicationTitle from './components/ApplicationTitle.vue';
+import AppTitle from './components/AppTitle.vue';
 
 export default {
   components: {
-    ApplicationTitle,
+    AppTitle,
   }
 }
 </script>
@@ -11,7 +11,7 @@ export default {
 <template>
   <div class="bg-primary vh-100">
     <main class="container d-flex align-items-center justify-content-center vh-100">
-      <ApplicationTitle></ApplicationTitle>
+      <AppTitle></AppTitle>
     </main>
   </div>
 </template>
